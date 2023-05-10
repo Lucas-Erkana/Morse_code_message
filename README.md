@@ -23,8 +23,7 @@
 
 # 📖 Decode a Morse code message <a name="about-project"></a>
 
-**Decode a Morse code message** is an application that can be used to decode sentences weitten in morse to
-words in the alphabet.
+**Decode a Morse code message** is an application that can be used to decode sentences written in morse to english text.
 
 ## 🛠 Built With <a name="built-with"></a>
 
