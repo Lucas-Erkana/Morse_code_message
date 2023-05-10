@@ -19,11 +19,10 @@ def morse_to_character(morse)
     word
   end
   
-  def morse_to_message(message)
+  def decode(message)
     sentence = ''
     message_array = message.split('   ')
     message_array.each { |section| sentence += " #{morse_to_word(section)}" }
     sentence.strip
   end
-  puts morse_to_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
-  
+  puts decode("-- -.--   -. .- -- .")  
